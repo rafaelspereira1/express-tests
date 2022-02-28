@@ -1,0 +1,12 @@
+{
+  "name": "express-tests",
+  "version": "1.0.0",
+  "description": "Just tests with Express",
+  "main": "src/index.js",
+  "repository": "https://github.com/rafaelspereira1/express-tests.git",
+  "author": "Rafael Pereira <rafaelspereira1@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
