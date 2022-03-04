@@ -13,5 +13,7 @@ module.exports = {
   rules: {
     'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
     'class-methods-use-this': 'off',
+    'consistent-return': 'off',
+    'no-promise-executor-return': 'off',
   },
 };
