@@ -11,7 +11,7 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+    'linebreak-style': 0,
     'class-methods-use-this': 'off',
     'consistent-return': 'off',
     'no-promise-executor-return': 'off',
